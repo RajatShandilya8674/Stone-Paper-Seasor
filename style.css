@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#header{
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    margin-bottom: 7px;
+    background-color: rgb(154, 132, 103);
+    color: white;
+}
+
+#choice-container{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 25, 74);
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.choice{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    border: 2px solid rgb(62, 7, 7);
+    padding: 1rem;
+    position: relative;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.choice:hover{
+    opacity: 0.5;
+    transform: scale(1.01);
+}
+
+/* #stone{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    
+}
+
+#paper{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+#scissor{
+    
+} */
+img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+#msg-container{
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+#message{
+    display: inline;
+    background-color: #352121;
+    font-size: 35px;
+    color: aliceblue;
+    padding: 13px;
+    border: 5px solid black;
+    border-radius: 12px;
+}
+
+#score-container{
+    height: 8rem;
+    display: flex;
+    text-align: center;
+    line-height: 4rem;
+    background-color: #352121;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 30px;
+    gap: 7rem;
+}
+
+/* #userscore{ */
+/* } */
